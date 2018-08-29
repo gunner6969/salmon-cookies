@@ -1,0 +1,29 @@
+{
+  "name": "salmon-cookies",
+  "version": "1.0.0",
+  "description": "A website for pat's pet backery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylgunn/salmon-cookies.git"
+  },
+  "keywords": [
+    "cat",
+    "kittin",
+    "dog",
+    "puppy",
+    "treat",
+    "food",
+    "seattle"
+  ],
+  "author": "Dylan Gunn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylgunn/salmon-cookies/issues"
+  },
+  "homepage": "https://github.com/dylgunn/salmon-cookies#readme"
+}
