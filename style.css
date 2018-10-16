@@ -1,24 +1,26 @@
-* }
+* {
     box-sizing: border-box;
+}
 body {  
-    background-color: aqua;
+    background-color: rgb(122, 14, 122)
 }
 
 #container {
     width: 90%;
-    background-color: antiquewhite;
+    background-color: royalblue;
     
     margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6{
-   front-family: 'Comfortaa' , cursive  
+   font-family: 'Comfortaa' , cursive  
 }
 
 h1 {
     float: left;
 }
 
-#search{
+#search{  
+
     float: left;
     padding:1.5em;
 }
@@ -29,20 +31,95 @@ h1 {
 }
 
     #navigation {
-    background-color: aqua
+    background-color: black
     
 }
 
  #navigation ul {
      list-style: none;
     Padding: 0;
-{
+ }
 
   #navigation li {
-    Float: left;
+    float: left;
      padding: 10px 20x;
-     border-right: 1px solid
-{
-    #navigation li: Hover {
-        background-color: white; 
-        cursor: pointer; 
+     border-right: 1px solid;
+  }
+    #navigation li:hover {
+        background-color: rgb(255, 136, 0); 
+        cursor: pointer;
+    }
+
+    #promotions {
+        background-color: rgb(199. 199.199);
+    } 
+       #promotions span {
+          float: left;
+          text-align: center;
+          padding: 0.5em;
+          font-weight: bold;
+    }
+
+        .promo {
+            width: 90%; 
+    }
+
+
+        main {
+            background-color: grey;
+            width: 100%;
+            min-height: 350px;
+    }
+
+
+    main > aside {
+        float: left;
+        width: 20%;
+        background-color: Orange; 
+    }
+
+    main > section {
+        width: 80%;
+
+    }
+
+    .product h4, .product p, .product a {
+        margin: 0; 
+        text-align: center;
+        display: block;
+    }
+
+        #product-listings {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .product img {
+            width: 90%;
+            margin:10px auto;
+            display:block; 
+
+
+        }
+
+            footer{
+                background-color: whitesmoke;
+                text-align: center;
+            }
+
+            footer p{
+             padding: 10px;
+             margin: 0;
+        }
+
+    .product{
+        width: 30%;
+        background-color: white;
+        color: black;
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+        
+    
+      

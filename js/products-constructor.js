@@ -1,0 +1,30 @@
+'use strict'
+
+    var product_list = [];
+   
+    var Product = function(product){
+        this.image = product.image;
+        this.title = product.title;
+        this.price = product.price;
+        this.sizes = product.sizes;
+        this.description = product.description;
+        this.colors = product.colors;
+        this.materials= product.materials;
+        this.brand = product.brand;
+        this.categories = product.categories;
+        this.product_id = product.product_id;
+    };  
+    
+    
+    Product.prototype.toHtml = function(){
+        var source = $('#product-template').text();
+        var template = Handlebars.compile(source);
+        return template(this);
+     };
+
+     product_list.forEach(function(product) {
+        if(product.title.toLowerCase().indexOf(lookup) >= 0
+     
+     product_list.forEach(function(product){
+        $('#product-listings').append(product.toHtml());
+    });
