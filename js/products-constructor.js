@@ -22,8 +22,9 @@
         return template(this);
      };
 
-     product_list.forEach(function(product) {
-        if(product.title.toLowerCase().indexOf(lookup) >= 0
+     products.forEach(function(product){
+         product_list.push(new Product(product)); 
+     });
      
      product_list.forEach(function(product){
         $('#product-listings').append(product.toHtml());

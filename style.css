@@ -30,7 +30,7 @@ h1 {
     display: table;
 }
 
-    #navigation {
+#navigation {
     background-color: black
     
 }
@@ -45,81 +45,107 @@ h1 {
      padding: 10px 20x;
      border-right: 1px solid;
   }
-    #navigation li:hover {
-        background-color: rgb(255, 136, 0); 
-        cursor: pointer;
-    }
+#navigation li:hover {
+    background-color: rgb(255, 136, 0); 
+    cursor: pointer;
+}
 
-    #promotions {
-        background-color: rgb(199. 199.199);
-    } 
-       #promotions span {
-          float: left;
-          text-align: center;
-          padding: 0.5em;
-          font-weight: bold;
-    }
+#promotions {
+    background-color: rgb(199, 199,199);
+} 
+#promotions span {
+    float: left;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
 
-        .promo {
-            width: 90%; 
-    }
+#promotions .arrow {
+    width: 5%;
+    background-color: white;
+    font-size: 2em;
+    padding: 0;
+}
 
-
-        main {
-            background-color: grey;
-            width: 100%;
-            min-height: 350px;
-    }
-
-
-    main > aside {
-        float: left;
-        width: 20%;
-        background-color: Orange; 
-    }
-
-    main > section {
-        width: 80%;
-
-    }
-
-    .product h4, .product p, .product a {
-        margin: 0; 
-        text-align: center;
-        display: block;
-    }
-
-        #product-listings {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .product img {
-            width: 90%;
-            margin:10px auto;
-            display:block; 
+.promo {
+    width: 90%; 
+}
 
 
-        }
+main {
+    background-color: grey;
+    width: 100%;
+    min-height: 350px;
+}
 
-            footer{
-                background-color: whitesmoke;
-                text-align: center;
-            }
 
-            footer p{
-             padding: 10px;
-             margin: 0;
-        }
+main > aside {
+    float: left;
+    width: 20%;
+    background-color: Orange; 
+    padding: 20px;
+}
 
-    .product{
-        width: 30%;
-        background-color: white;
-        color: black;
-        float: left;
-        margin: 0 20px 20px 0;
-    }
-        
-    
+
+
+
+
+
+
+
+
+main > section {
+    float: left;
+    width: 80%;
+    padding: 20 px;
+    background-color:black;
+    color: white;
+}
+
+aside select {
+     width: 100%;
+ }
+
+ aside hr {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+#product-listings {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    width: 30%;
+    background-color: white;
+    color: black;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.product img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+}
+
+.product h4, .product p, .product a {
+    margin: 0; 
+    text-align: center;
+    display: block;
+}
+
+
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+footer p{
+    padding: 10px;
+    margin: 0;
+}    
       
